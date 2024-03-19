@@ -1,13 +1,12 @@
 .grid-container { 
    display: grid ; 
    grid-template-columns: repeat(2,auto);
-   width: auto;
-   padding: 40px;
 }
+
 .grid-item {
-    padding: 60px;
+    padding: 40px;
     font-size: 16px;
-    text-align: center;
+    text-align: center
     }
  
 p{
@@ -31,15 +30,18 @@ h3{Font-family: "Inter", sans-serif;
   .item0,.item1 {
     background-color:#FFCD9E;
     align-items: center;
-    height:310px;
-
+    height:320px;
+    line-height :1.5;
     
     }
 
     .item1 > img {
-        height:380px;
-        width: 400px;  
-        mix-blend-mode: multiply;
+      width: 450px;
+      height: 450px;
+      top: 2px;
+      left: 770px;
+      position: absolute;  
+      mix-blend-mode: multiply;
       }
 
   .item5 {
@@ -63,7 +65,6 @@ h3{Font-family: "Inter", sans-serif;
     font-weight: 100;
     color:white;
     line-height :0.7;
-    
 }
 .clrbtn {
     background-color: black;
