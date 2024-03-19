@@ -1,0 +1,97 @@
+.grid-container { 
+   display: grid ; 
+   grid-template-columns: repeat(2,auto);
+   width: auto;
+   padding: 40px;
+}
+.grid-item {
+    padding: 60px;
+    font-size: 16px;
+    text-align: center;
+    }
+ 
+p{
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #484848;
+  ;
+}
+
+  h2{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    text-align: left;}
+
+h3{Font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-align: left;}
+ 
+  
+  .item0,.item1 {
+    background-color:#FFCD9E;
+    align-items: center;
+    height:310px;
+
+    
+    }
+
+    .item1 > img {
+        height:380px;
+        width: 400px;  
+        mix-blend-mode: multiply;
+      }
+
+  .item5 {
+    background-color:#282828;
+    height:130px;
+    text-align: left;
+    Font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color :white;
+    line-height :0.7;
+  }
+
+
+.item6{
+    background-color:#282828;
+    height:130px;
+    text-align: right;
+    Font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color:white;
+    line-height :0.7;
+    
+}
+.clrbtn {
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-style:bold;
+    padding: 0.6rem 2.2rem;
+    letter-spacing: 0.5px;
+    border-radius: 0.3rem;
+}
+  .adjust{
+    color: white;
+    Font-family: "Inter", sans-serif;
+    font-size: 12px;
+  }
+
+.containe { 
+  display: flex;
+  align-items: center;
+ gap:15px ;
+
+}
+  #container {
+    width: 250px; 
+    height: 38px; 
+    padding: 10px; 
+    font-size: 12px; 
+    border-radius: 0.3rem;
+    border: solid black;
+}
+
